@@ -5,9 +5,7 @@ namespace probarControles
         public Form1()
         {
             InitializeComponent();
-            //tableLayoutPanel1.Scroll += new ScrollEventHandler(tableLayoutPanel1_Scroll);
             tableLayoutPanel1.Scroll += new ScrollEventHandler(tableLayoutPanel1_Scroll);
-
         }
         private void tableLayoutPanel1_Scroll(object sender, ScrollEventArgs e)
         {
